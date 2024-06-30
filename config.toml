@@ -1,0 +1,16 @@
+# Your student ID.
+student_id = "2017-19937"
+
+# "20241" for the 2024 spring semeter.
+# You figure out the rest.
+term = "20241"
+
+# Lecture ID to room number mapping.
+[rooms]
+# You can find the lecture ID in the refresh response.
+# The room number stands for the last three digits of the beacon's SSID.
+# Becaons are named like SNUB765, SNUB760, SNUB767, etc.
+# May require some trial and error to find the right room number.
+217863 = "765"
+217988 = "760"
+217864 = "767"
